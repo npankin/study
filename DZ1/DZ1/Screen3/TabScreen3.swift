@@ -18,7 +18,7 @@ struct TabScreen3: View {
         }
         .sheet(isPresented: $viewModel.isScreen3ModalPresented) {
             NavigationView {
-                Text("Modal sheet")
+                ModalScreen()
                     .navigationBarTitle(Text("Title"), displayMode: .inline)
                     .navigationBarItems(trailing: Button("Done", action: {
                         viewModel.isScreen3ModalPresented.toggle()

@@ -9,7 +9,6 @@ import Foundation
 import SwiftUI
 
 final class ViewModel: ObservableObject {
-    @Published var isScreen3ModalPresented = false
     @Published var screen2ListItems = [
         Screen2ListItem(),
         Screen2ListItem(),
@@ -20,4 +19,5 @@ final class ViewModel: ObservableObject {
     ]
     @Published var selectedTab = 0
     @Published var screen2OpenCellEvent = false
+    @Published var isScreen3ModalPresented = false
 }

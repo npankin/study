@@ -15,10 +15,11 @@ struct TabScreen2: View {
     var body: some View {
         NavigationView {
             List(viewModel.screen2ListItems) { item in
+                // TODO: не понял как перейти на ячейку с конкретным индексом
                 NavigationLink(destination: ListCellDetailScreen(item: item), isActive: $viewModel.screen2OpenCellEvent, label: {
-                    Screen2ListCell(item: item).animation(.easeOut(duration: 0.3))
+                    Screen2ListCell(item: item)
                 })
-                // так и не понял, как сделать анимацию перехода с селлы на детальное вью
+                // TODO: так и не понял, как сделать анимацию перехода с селлы на детальное вью
                 // по isActive: $viewModel.screen2OpenCellEvent
             }.navigationTitle(Text("List"))
         }

@@ -8,13 +8,14 @@
 import Foundation
 import SwiftUI
 
-struct TabScreen: View {
+struct TabsScreen: View {
     @EnvironmentObject var viewModel: ViewModel
     
     var body: some View {
         TabView(selection: $viewModel.selectedTab,
                 content: {
-                    // Очень неадекватное поведение. если в TabScreen -> body вернуть EmptyView, то табы перестают рисоваться
+                    // NOTE: Очень неадекватное поведение. если в TabScreen -> body вернуть EmptyView,
+                    // то табы перестают рисоваться
                     TabScreen1()
                         .tabItem {
                             Text("Tab 1")
@@ -34,6 +35,5 @@ struct TabScreen: View {
                         }
                         .tag(2)
                 })
-            .environmentObject(viewModel)
     }
 }

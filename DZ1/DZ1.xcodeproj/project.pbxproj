@@ -19,6 +19,8 @@
 		B04993C326DD1F5A007FF356 /* ListCellDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04993C226DD1F5A007FF356 /* ListCellDetailScreen.swift */; };
 		B04993C926DDCC67007FF356 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04993C826DDCC67007FF356 /* ViewModel.swift */; };
 		B04993CC26DDD064007FF356 /* TabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04993CB26DDD064007FF356 /* TabScreen.swift */; };
+		B049942E26DE2C74007FF356 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049942D26DE2C74007FF356 /* SliderView.swift */; };
+		B049943726DE38D0007FF356 /* ModalScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B049943626DE38D0007FF356 /* ModalScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		B04993C226DD1F5A007FF356 /* ListCellDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCellDetailScreen.swift; sourceTree = "<group>"; };
 		B04993C826DDCC67007FF356 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		B04993CB26DDD064007FF356 /* TabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabScreen.swift; sourceTree = "<group>"; };
+		B049942D26DE2C74007FF356 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		B049943626DE38D0007FF356 /* ModalScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +117,8 @@
 			isa = PBXGroup;
 			children = (
 				B04993B326DD0E9A007FF356 /* TabScreen3.swift */,
+				B049942D26DE2C74007FF356 /* SliderView.swift */,
+				B049943626DE38D0007FF356 /* ModalScreen.swift */,
 			);
 			path = Screen3;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B04993B126DD0E8E007FF356 /* TabScreen2.swift in Sources */,
+				B049942E26DE2C74007FF356 /* SliderView.swift in Sources */,
 				B04993C926DDCC67007FF356 /* ViewModel.swift in Sources */,
 				B049939A26DCFFC0007FF356 /* ContentView.swift in Sources */,
 				B04993CC26DDD064007FF356 /* TabScreen.swift in Sources */,
@@ -194,6 +201,7 @@
 				B049939826DCFFC0007FF356 /* DZ1App.swift in Sources */,
 				B04993C326DD1F5A007FF356 /* ListCellDetailScreen.swift in Sources */,
 				B04993AC26DD07D5007FF356 /* TabScreen1.swift in Sources */,
+				B049943726DE38D0007FF356 /* ModalScreen.swift in Sources */,
 				B04993BC26DD1B29007FF356 /* Screen2ListItem.swift in Sources */,
 				B04993C026DD1B4B007FF356 /* Screen2ListCell.swift in Sources */,
 			);
